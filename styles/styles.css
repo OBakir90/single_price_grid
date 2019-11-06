@@ -9,6 +9,16 @@ body {
     text-align: center;
     color: green;
 }
+.card {
+    /* display: flex; */
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+  }
+    /* width: 60%;   */
+
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
