@@ -5,17 +5,28 @@ body {
     font-size: 16px;
 }
 
-.main-heading {
-    text-align: center;
-    color: green;
+.top-box {
+    display: block;
+    position: relative;
+    margin-top: 10vw;
+    margin-left: 25vw;
+    width:500px;
+    height: 100px;
 }
-.card {
-   
-    margin-top: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+
+.bot-box{
+    display: inline-block;
+}
+.left-box {
+    float: left;
+    margin-left: 25vw;
+    width: 250px;
+}
+
+.right-box{
+    float: right;
+    width: 200px;
+}
     /* width: 60%;   */
 
 
