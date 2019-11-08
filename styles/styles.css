@@ -1,31 +1,44 @@
 body {
-    background-color: lightgray;
+    background-color: hsl(204, 43%, 93%);
     font-family: 'Karla', sans-serif;
     font-weight: 700;
     font-size: 16px;
 }
 
+h2 {
+   color: hsl(179, 62%, 43%);
+}
+h3 {
+    color: hsl(71, 73%, 54%);
+}
 .top-box {
     display: block;
     position: relative;
     margin-top: 10vw;
     margin-left: 25vw;
     width:500px;
-    height: 100px;
+    height: 250px;
+    background-color: white;
 }
 
 .bot-box{
     display: inline-block;
+    
 }
 .left-box {
     float: left;
     margin-left: 25vw;
     width: 250px;
+    height: 250px;
+    background-color: hsl(179, 62%, 43%);
+    
 }
 
 .right-box{
     float: right;
-    width: 200px;
+    width: 250px;
+    height: 250px;
+    background-color: hsl(179, 62%, 43%);
 }
     /* width: 60%;   */
 
