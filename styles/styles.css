@@ -7,17 +7,20 @@ body {
 
 h2 {
    color: hsl(179, 62%, 43%);
+   padding-left: 35px;
 }
 h3 {
     color: hsl(71, 73%, 54%);
+    padding-left: 35px;
 }
 h5 {
    line-height: 1.6;
    color: whitesmoke;
+   padding: 5px 35px 5px 15px;
 }
 p {
-    
     line-height: 1.6;
+    padding-left: 35px;
 }
 
 span {
@@ -32,7 +35,7 @@ span {
     margin-top: 10vw;
     margin-left: 25vw;
     width:600px;
-    height: 250px;
+    height: 225px;
     background-color: white;
 }
 
@@ -42,6 +45,7 @@ span {
 }
 .left-box h1 {
     color: white;
+    padding-left: 35px;
 }
 .left-box p {
     color: white;
@@ -51,12 +55,11 @@ span {
     margin-left: 25vw;
     width: 300px;
     height: 250px;
-    background-color: hsl(179, 62%, 43%);
-    text-align: center;
-    
+    background-color: hsl(179, 62%, 43%);    
 }
 .right-box p {
     color: white;
+    
 }
 
 .right-box{
@@ -81,8 +84,9 @@ span {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 4px 35px;
     cursor: pointer;
+    
     
   }
   .button {border-radius: 8px;}
